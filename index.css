@@ -1,0 +1,34 @@
+body {
+  font-family: "Indie Flower", cursive;
+  font-size: 1.5rem;
+  padding: 2rem 6rem;
+}
+
+h2 {
+  color: darkgreen;
+}
+
+.secret {
+  display: none;
+}
+
+.btn {
+  width: 10rem;
+  height: 3rem;
+  font-size: 1.1rem;
+  background-color: deepskyblue;
+  color: white;
+  border: none;
+  border-radius: 3rem;
+  outline: 0;
+  text-transform: uppercase;
+  transition: ease-out 0.1s;
+}
+
+.btn:hover {
+  background-color: darkblue;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
