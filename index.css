@@ -13,8 +13,9 @@ h2 {
 }
 
 .btn {
-  width: 10rem;
+  width: 15rem;
   height: 3rem;
+  margin: .5rem;
   font-size: 1.1rem;
   background-color: deepskyblue;
   color: white;
