@@ -6,6 +6,7 @@ body {
 
 h2 {
   color: darkgreen;
+  text-align: center;
 }
 
 .secret {
@@ -15,7 +16,7 @@ h2 {
 .btn {
   width: 15rem;
   height: 3rem;
-  margin: .5rem;
+  margin: 0.5rem;
   font-size: 1.1rem;
   background-color: deepskyblue;
   color: white;
@@ -32,4 +33,11 @@ h2 {
 
 .btn:active {
   transform: scale(0.95);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
